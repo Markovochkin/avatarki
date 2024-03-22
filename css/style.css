@@ -1,0 +1,159 @@
+.header{
+	background: #2C2C2C;
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+	
+}
+.container__header{
+	display: flex;
+	justify-content:space-between ;
+	align-items: center;
+	padding: 36px 0;
+}
+.nav__list{
+	display: flex;
+	list-style: none;
+}
+.nav__item{
+	margin-right:60px ;
+	color: #00C4F0;
+font-family: Nico Moji;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-block{
+	background: linear-gradient(102deg, rgba(127, 0, 226, 0.48) 0%, rgba(0, 226, 77, 0.48) 100%);
+}
+.container__hero-block{
+	width: 1512px;
+    height: 707px;
+    display: flex;
+	justify-content:space-between ;
+	align-items: center;
+	padding:90px 0 91px;
+}
+.hero-block__title{
+	color: #000AFF;
+font-family: Nico Moji;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-block__content{
+	max-width: 475px;
+}
+.hero-block__link{
+	border-radius: 6px;
+background: linear-gradient(87deg, #00E283 4.47%, #00C2FF 95.53%);
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+padding: 5px;
+}
+.about__full{
+	height: 20px;
+	background-color: #00C4F0;
+	width:400px ;
+}
+.about__done{
+	height: 100%;
+	background-color: black;
+	width:65% ;
+
+}
+.about__list_progress-bar{
+	list-style: none;
+}
+.about__content{
+	display: flex;
+    
+}
+.about__title_progress-bar{
+	color: white;
+	padding: 40px;
+}
+.about__title_item{
+	color: white;
+}
+.about{
+background: linear-gradient(45deg, rgb(255, 0, 0), rgb(0, 0, 0));
+
+}
+.about__title{
+	color: white;
+	text-align: center;
+}
+.video{
+	background: linear-gradient(180.00deg, rgb(255, 168, 0),rgb(235, 12, 12) 100%);
+}
+.container__video{
+	padding: 80px;
+}
+.class{color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 18px}
+.video__video{
+	width:100%;
+	height: 668px;
+	border:50px solid rgb(65, 65, 65);
+	border-radius: 30px;
+	box-sizing: border-box;
+}
+.gallery{
+	background: linear-gradient(53.67deg, rgb(255, 122, 0) 1.573%,rgb(82, 0, 255) 96.389%);
+	padding: 70px 0px 50px;
+}
+.gallery__title{
+	color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.gallery__list{
+	display: flex;
+	flex-wrap:	wrap;
+	list-style: none;
+	justify-content: center;
+	padding-left: 0;
+}
+.gallery__img{
+	width: 100%;
+	height: 100%;
+}
+.gallery__item{
+	width:30%;
+	height: 400px;
+	margin: 10px;
+}
+.footer__list{
+	display: flex;
+	list-style: none;
+}
+.footer__item{
+margin: 10px;
+}
+.container__footer{
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	background: black;
+}
+.footer__content{
+	color: white;
+}
+
+
+
+
